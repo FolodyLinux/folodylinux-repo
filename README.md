@@ -7,3 +7,7 @@ add this line to `/etc/pacman.conf`
 SigLevel = Optional TrustAll
 Server = https://folodyos.github.io/$repo/$arch
 ```
+or type this on terminal
+```
+printf "[folodyos-repo]\nSigLevel = Optional TrustAll\nServer = https://folodyos.github.io/$repo/$arch"
+```
