@@ -1,13 +1,13 @@
-# folodyos-repo
+# folodylinux-repo
 repo for folodyos
 # how to add repo to arch linux?
 add this line to `/etc/pacman.conf`
 ```
-[folodyos-repo]
+[folodylinux-repo]
 SigLevel = Optional TrustAll
 Server = https://folodyos.github.io/$repo/$arch
 ```
 or type this on terminal
 ```
-printf "[folodyos-repo]\nSigLevel = Optional TrustAll\nServer = https://folodyos.github.io/$repo/$arch"
+printf "[folodylinux-repo]\nSigLevel = Optional TrustAll\nServer = https://folodyos.github.io/$repo/$arch"
 ```
